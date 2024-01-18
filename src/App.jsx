@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div className='bg-[url("./assets/mesh.svg")] bg-cover'>
 
-      <div className='h-[100vh] w-full  max-w-[1280px] m-auto'>
+      <div className='h-[100vh] w-full  max-w-[1500px] m-auto'>
         <Navbar/>
       </div>
 
