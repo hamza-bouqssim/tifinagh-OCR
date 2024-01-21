@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import TifinaghOcr from './components/TifinaghOcr'
+import { Faq } from './components/Faq'
 const App = () => {
   return (
     <div className='bg-[url("./assets/mesh.svg")] bg-cover'>
@@ -13,6 +14,8 @@ const App = () => {
         <HeroSection/>
 
         <TifinaghOcr/>
+
+        <Faq/>
         
       </div>
 
