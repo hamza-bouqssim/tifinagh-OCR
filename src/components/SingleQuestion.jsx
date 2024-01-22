@@ -5,17 +5,21 @@ const SingleQuestion = ({question, answer}) => {
     return (
     <>
         <div className='w-[80%] flex flex-col justify-center items-center'>
-            <div className='w-[100%] flex justify-between items-center'>
-                <h3 className='font-semibold text-darkBlue text-[30px]'>{question}</h3>
-                {
-                    showAnswer ? (
-                    <h3 className='font-semibold text-darkBlue text-[30px] cursor-pointer' onClick={() => setShowAnswer(false)}>-</h3>
-                    ): (
+            {
+                showAnswer ? (
 
-                        <h3 className='font-semibold text-darkBlue text-[30px] cursor-pointer' onClick={() => setShowAnswer(true)}>+</h3>
-                    )
-                }
-            </div>
+                <div className='w-[100%] flex justify-between items-center cursor-pointer'  onClick={() => setShowAnswer(false)}>
+                    <h3 className='font-semibold text-darkBlue text-[30px]'>{question}</h3>
+                    <h3 className='font-semibold text-darkBlue text-[30px]'>-</h3>
+                </div>
+                ): (
+                <div className='w-[100%] flex justify-between items-center cursor-pointer'  onClick={() => setShowAnswer(true)}>
+                    <h3 className='font-semibold text-darkBlue text-[30px]'>{question}</h3>
+                    <h3 className='font-semibold text-darkBlue text-[30px]'>+</h3>
+                </div>
+                )
+            }
+
             {
                 showAnswer ? (
 

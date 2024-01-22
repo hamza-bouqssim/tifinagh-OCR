@@ -6,5 +6,13 @@ export const questions = [
     {
         question: "How accurate is the image-to-text conversion for Tifinagh alphabets?",
         answer: "Our picture-to-text tool keeps learning and getting better with new data. It tries its best to be accurate, but sometimes it might make a small mistake. We're always working to make it even better for you. We're always working to make it even better for you"
+    },
+    {
+        question: "Is the service available for languages other than Tifinagh?",
+        answer: "Our service is designed to change pictures into words, and it's specialized for Tifinagh script, unlike many other general tools online."
+    },
+    {
+        question: "Can I contribute or suggest improvements for this service?",
+        answer: "Absolutely! We welcome your contributions and suggestions. Just head over to the contact section, and we'd love to hear from you."
     }
 ]
