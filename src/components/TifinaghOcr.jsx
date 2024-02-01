@@ -23,12 +23,13 @@ const TifinaghOcr = () => {
 
   }
   return (
-    <div className="w-full flex flex-col justify-center items-center py-5 mt-10">
-      <h1 className='font-bold text-darkBlue text-[45px]'>Tifinagh-OCR</h1>
+    <div className="w-[100%] flex flex-col justify-center items-center py-5 mt-10 ">
+      <h1 className='font-bold text-darkBlue text-[45px] md:text-[80px]'>Tifinagh-OCR</h1>
 
-      <div className=' flex-col justify-center items-center'>
+      <div className='flex flex-col lg:flex-row  md:justify-evenly md:gap-5'>
 
-          <div className='w-[300px] h-[300px] bg-white shadow-xl rounded-2xl flex flex-col items-center justify-center flex-shrink-0' onDragOver={onDragOv} onDrop={_onDrop}>
+          <div className='w-[300px] h-[300px] md:w-[480px] md:h-[480px] bg-white shadow-xl rounded-2xl flex flex-col items-center justify-center flex-shrink-0' onDragOver={onDragOv} onDrop={_onDrop}>
+
             {file ? (<img src={file} alt="Uploaded" className="object-cover w-[280px] h-[280px] rounded-2xl" />):(
               <>
 
@@ -37,12 +38,13 @@ const TifinaghOcr = () => {
                 <input type="file"  className='hidden' ref={inputRef} defaultValue={null} onChange={onChangeHandler} />
               </div>
               <h2 className='text-_gray'>or drop a file</h2>
+
               </>
             )}
 
           </div>
 
-          <div className='w-[300px] h-[300px] bg-white mt-3 shadow-2xl rounded-2xl flex flex-col items-center justify-center'>
+          <div className='w-[300px] h-[300px] md:w-[480px] md:h-[480px] bg-white mt-3 md:mt-0 shadow-2xl rounded-2xl flex flex-col items-center justify-center'>
             <h2 className='text-_gray opacity-30'>Your result here</h2>
           </div>
       </div>
