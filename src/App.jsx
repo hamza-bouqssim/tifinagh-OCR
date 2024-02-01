@@ -18,9 +18,9 @@ const App = () => {
     ref.current?.scrollIntoView();
   }
   return (
-    <div className='bg-[url("./assets/mesh.svg")] bg-cover'>
+    <div className='bg-[url("./assets/mesh.svg")]  w-full '>
 
-      <div className='h-[100%] w-full  max-w-[1500px] px-20 m-auto'>
+      <div className='h-[100%] w-[100%]  max-w-[1500px] px-2 m-auto'>
 
       <Navbar scrollToHome={scrollToHome} scrollToTifinagh={scrollToTifinagh} scrollToFaq={scrollToFaq}/>
        

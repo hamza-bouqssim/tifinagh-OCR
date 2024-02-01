@@ -9,13 +9,13 @@ const SingleQuestion = ({question, answer}) => {
                 showAnswer ? (
 
                 <div className='w-[100%] flex justify-between items-center cursor-pointer'  onClick={() => setShowAnswer(false)}>
-                    <h3 className='font-semibold text-darkBlue text-[30px]'>{question}</h3>
-                    <h3 className='font-semibold text-darkBlue text-[30px]'>-</h3>
+                    <h3 className='font-semibold text-darkBlue text-[18px]'>{question}</h3>
+                    <h3 className='font-semibold text-darkBlue text-[18px]'>-</h3>
                 </div>
                 ): (
                 <div className='w-[100%] flex justify-between items-center cursor-pointer'  onClick={() => setShowAnswer(true)}>
-                    <h3 className='font-semibold text-darkBlue text-[30px]'>{question}</h3>
-                    <h3 className='font-semibold text-darkBlue text-[30px]'>+</h3>
+                    <h3 className='font-semibold text-darkBlue text-[18px]'>{question}</h3>
+                    <h3 className='font-semibold text-darkBlue text-[18px]'>+</h3>
                 </div>
                 )
             }

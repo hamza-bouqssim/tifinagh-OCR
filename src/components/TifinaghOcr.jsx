@@ -23,13 +23,13 @@ const TifinaghOcr = () => {
 
   }
   return (
-    <div className="w-full h-[720px] flex flex-col justify-center items-center gap-5">
-      <h1 className='font-bold text-darkBlue text-[80px]'>Tifinagh-OCR</h1>
+    <div className="w-full flex flex-col justify-center items-center py-5 mt-10">
+      <h1 className='font-bold text-darkBlue text-[45px]'>Tifinagh-OCR</h1>
 
-      <div className=' flex justify-center gap-10 items-center'>
+      <div className=' flex-col justify-center items-center'>
 
-          <div className='w-[480px] h-[420px] bg-white shadow-xl rounded-2xl flex flex-col items-center justify-center flex-shrink-0' onDragOver={onDragOv} onDrop={_onDrop}>
-            {file ? (<img src={file} alt="Uploaded" className="object-cover w-[440px] h-[380px] rounded-2xl" />):(
+          <div className='w-[300px] h-[300px] bg-white shadow-xl rounded-2xl flex flex-col items-center justify-center flex-shrink-0' onDragOver={onDragOv} onDrop={_onDrop}>
+            {file ? (<img src={file} alt="Uploaded" className="object-cover w-[280px] h-[280px] rounded-2xl" />):(
               <>
 
               <div className='cursor-pointer' onClick={gottenRef} >
@@ -42,7 +42,7 @@ const TifinaghOcr = () => {
 
           </div>
 
-          <div className='w-[480px] h-[420px] bg-white shadow-xl rounded-2xl flex flex-col items-center justify-center'>
+          <div className='w-[300px] h-[300px] bg-white mt-3 shadow-2xl rounded-2xl flex flex-col items-center justify-center'>
             <h2 className='text-_gray opacity-30'>Your result here</h2>
           </div>
       </div>
