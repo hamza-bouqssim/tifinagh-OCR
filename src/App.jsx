@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div className='bg-[url("./assets/mesh.svg")] bg-cover'>
 
-      <div className='h-[100%] w-full  max-w-[1500px] px-10 m-auto'>
+      <div className='h-[100%] w-full  max-w-[1500px] px-20 m-auto'>
 
       <Navbar scrollToHome={scrollToHome} scrollToTifinagh={scrollToTifinagh} scrollToFaq={scrollToFaq}/>
        

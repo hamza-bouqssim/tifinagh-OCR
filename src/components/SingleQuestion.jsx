@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+// import 'src/App.css'
 const SingleQuestion = ({question, answer}) => {
     const [showAnswer, setShowAnswer] = useState(false);
     return (
@@ -23,7 +23,7 @@ const SingleQuestion = ({question, answer}) => {
             {
                 showAnswer ? (
 
-                    <p className='text-_gray font-bold'>{answer}</p>
+                    <p className='text-_gray font-bold delay-1000'>{answer}</p>
                 ): null
             }
         </div>
