@@ -10,7 +10,7 @@ const Navbar = ({ scrollToHome ,scrollToTifinagh, scrollToFaq }) => {
   return (
     <div className='flex justify-between  items-center px-2 '>
 
-      <img  className='h-[90px] w-[160px]' src="./src/assets/amazigh-flag.svg" alt="" />
+      <img  className='h-[90px] w-[160px]' src="./src/assets/tifinagh-OCR.svg" alt="" />
 
       <ul className=" hidden  lg:flex justify-center items-center gap-5 font-roboto font-bold text-darkBlue ">
         <li><button onClick={scrollToHome}  className=' duration-200 ease-in hover:text-[#2490F4]'>Home</button></li>

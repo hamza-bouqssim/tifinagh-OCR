@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from "/home/hbouqssi/Desktop/tifinagh-OCR/src/assets/illustration-hero.svg"
+import HeroImage from "./src/assets/illustration-hero.svg"
 
 const HeroSection = ({ scrollToTifinagh }) => {
   return (
