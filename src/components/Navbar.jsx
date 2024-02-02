@@ -19,7 +19,7 @@ const Navbar = ({ scrollToHome ,scrollToTifinagh, scrollToFaq }) => {
         <li><button className='duration-200 ease-in hover:text-[#2490F4]' href="#">Contact</button></li>
         <li className='flex justify-between gap-1 bg-_blue p-2 rounded-lg cursor-pointer text-white hover:text-white hover:bg-[#3c75d2]'>
           <h3>Tamazight</h3>
-          <img src="public/assets/amazigh-flag.svg" alt="" />
+          <img src="assets/amazigh-flag.svg" alt="" />
         </li>
       </ul>
       <div className="cursor-pointer block lg:hidden" onClick={handleNavIcon}>{ navIcon ? <RxHamburgerMenu size={30} /> : <AiOutlineClose size={30} />}</div>
