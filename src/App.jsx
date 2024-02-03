@@ -18,7 +18,7 @@ const App = () => {
     ref.current?.scrollIntoView();
   }
   return (
-    <div className='bg-[url("./assets/mesh.svg")] w-full md:bg-cover'>
+    <div className='bg-[url("/assets/mesh.svg")] w-full md:bg-cover'>
 
       <div className='h-[100%] w-[100%]  max-w-[1300px] px-2 m-auto'>
 
